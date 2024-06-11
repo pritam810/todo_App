@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+
+// Importing required components --->>
+import TodoForm from "./form/Form";
+import TodoList from "./form/List";
+
+// inporting custom context from dataContext.js --->>
+import CustomDataContext from './dataContext';
 
 function App() {
   return (
+    <CustomDataContext>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='container'>
+        <h2>Create your Todo-List</h2>
+      <TodoForm />
+      <TodoList />
+      </div>
     </div>
+    </CustomDataContext>
   );
 }
 

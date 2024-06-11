@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+  
+   
+}
+.formcontainer{
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    display:flex;
+    justify-content: center;
+    width: 100vw;
+
+    
+}
+
+.inputBox{
+    padding: 15px;
+    
+    border-radius: 5px;
+    width: 40vw;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.inputBox::placeholder{
+    font-size: .9 rem;
+    color: rgb(187, 182, 182);
+}
+
+
+.addBtn{
+    padding: 15px;
+    color:rgb(255, 0, 0);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.addBtn:hover{
+    background-color: rgb(163, 159, 159);
+}
+
+
+
+
+
+

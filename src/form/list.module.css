@@ -1,0 +1,86 @@
+.listContainer {
+    width: 95%;
+    list-style: none;
+    padding: .5rem 0;
+    margin-top: 1rem;
+}
+
+.list_item {
+    min-height: 3.75rem;
+    margin-bottom: .6rem;
+    padding: .2rem 1rem;
+    border-radius: .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid #f29526;
+}
+.emptyTxt {
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.list_item>p {
+    width: 70%;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnContainer {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pending {
+    color: rgb(226, 26, 26);
+    font-size: .8rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .7rem;
+    border: none;
+    background-color: transparent;
+    padding: .7rem .9rem;
+    border: 1.5px solid red;
+}
+
+.completed {
+    color: rgb(29, 223, 29);
+    font-size: .8rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-radius: .7rem;
+    border: none;
+    background-color: transparent;
+    padding: .7rem .8rem;
+    border: 1.5px solid rgb(29, 223, 29);
+}
+
+.deleteBtn {
+    color: rgb(226, 26, 26);
+    font-size: .8rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .7rem;
+    border: none;
+    background-color: transparent;
+    padding: .7rem .8rem;
+    border: 1.5px solid red;
+}
+.deleteBtn:hover {
+    
+    background-color: rgb(241, 192, 133);
+    cursor: pointer;
+}
+
+.pending:hover{
+    cursor: pointer;
+    background-color: rgb(241, 192, 133);
+}
+
+.completed:hover{
+    cursor: pointer;
+    background-color: rgb(241, 192, 133);
+}
